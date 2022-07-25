@@ -5,7 +5,7 @@ import Leaflet from 'leaflet';
 import { Container, Content, MapContent } from './styles';
 
 const icon = Leaflet.icon({
-  iconUrl: "../../../public/brisanet-icon.png",
+  iconUrl: "./brisanet-icon.png",
   iconSize: [38, 38]
 })
 
