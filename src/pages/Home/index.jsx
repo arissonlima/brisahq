@@ -26,7 +26,7 @@ export function Home(){
     <>
       <Header>
         <h2>Fique por dentro das novidades da Marvel</h2>
-        <Search />
+        {/* <Search /> */}
       </Header>
       <Content>
         {items.map(item => {
