@@ -1,9 +1,11 @@
 import { useEffect, useState } from 'react';
 
+import { ArrowUp } from 'phosphor-react';
+
 import { Search } from '../../components/Search';
 import { Card } from '../../components/Card';
 
-import { Header, Content } from './styles';
+import { Header, Content, TopButton } from './styles';
 
 export function Home(){
 
@@ -33,6 +35,12 @@ export function Home(){
           return <Card item={item} key={item.id} />
         })}
       </Content>
+
+      <a href="#">
+        <TopButton>
+          <ArrowUp size={22} />
+        </TopButton>
+      </a>
     </>
   );
 }

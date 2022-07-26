@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const Header = styled.div`
+  position: relative;
   max-width: 1024px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -26,4 +27,17 @@ export const Content = styled.div`
   flex-wrap: wrap;
   gap: 8px;
   margin-bottom: 20px;
+`;
+
+export const TopButton = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: var(--primary);
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  color: var(--white);
 `;
